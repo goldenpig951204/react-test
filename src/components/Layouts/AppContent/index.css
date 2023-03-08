@@ -1,0 +1,14 @@
+.app-content {
+  padding: 70px 0 0 0;
+  min-height: calc(100vh - 81px);
+  margin-left: 300px;
+  width: calc(100% - 300px);
+  box-sizing: border-box;
+  overflow: auto;
+  transition: all .3s ease;
+}
+
+.app-content.collapsed {
+  margin-left: 70px;
+  width: calc(100% - 70px);
+}

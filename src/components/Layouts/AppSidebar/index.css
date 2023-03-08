@@ -1,0 +1,42 @@
+.app-sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  margin-top: 80px;
+  width: 300px;
+  color: var(--appBarColor);
+  background-color: var(--appBarBgColor);
+  overflow: hidden;
+  box-shadow: 2px 0px 1px 0px #0802024d;
+  transition: all .3s ease;
+}
+
+.app-sidebar.collapsed {
+  width: 70px;
+}
+
+.app-sidebar .nav-items {
+  margin-top: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.app-sidebar .nav-item .nav-link {
+  display: block;
+  padding: 20px 27.5px;
+  width: 300px;
+  color: var(--appBarColor);
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.app-sidebar .nav-item.active .nav-link,
+.app-sidebar .nav-item:hover .nav-link {
+  font-weight: bold;
+}
+
+.app-sidebar .nav-link .nav-link-icon {
+  margin-right: 25px;
+  background-color: transparent;
+}

@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mg-10 {
+  margin: 10px;
+}
+
+.flex>.flex-1 {
+  flex: 1;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--btnBgColor);
+  color: var(--btnColor);
+}
+
+.theme-text-color {
+  color: var(--btnColor);
+}

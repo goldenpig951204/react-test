@@ -1,0 +1,22 @@
+.page-content .form-control {
+  padding: 9.5px;
+  width: 100%;
+  max-width: 50%;
+  color: var(--appLeftColor);
+  background-color: var(--appLeftBgColor);
+}
+
+.page-content .left-content {
+  margin: 0px;
+  padding: 40px;
+  color: var(--appLeftColor);
+  background-color: var(--appLeftBgColor);
+  min-height: calc(100vh - 160px);
+}
+
+.page-content .right-content {
+  margin: 0px;
+  padding: 40px;
+  color: var(--appRightColor);
+  background-color: var(--appRightBgColor);
+}
